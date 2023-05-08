@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name="DInfo")
 public class Donorinfo {
-	
+
 	@Id
 	@Column(name="ID")
 	private int donorid;
@@ -82,6 +82,7 @@ public class Donorinfo {
 	public void setDonorsex(String donorsex) {
 		this.donorsex = donorsex;
 	}
+
 	
 	
 	
